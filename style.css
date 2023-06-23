@@ -1,0 +1,23 @@
+body{
+    background-color: gray;
+}
+div{
+    color: white;
+}
+
+.foo{
+    color: yellowgreen;
+}
+
+.background{
+    background-color: black;
+    border: 1px solid red;
+}
+
+.green{
+    background-color: green;
+}
+/* #myImg{
+    width: 100px;
+    height: auto;
+} */

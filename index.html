@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        
+        // load Events: this is used in cases where the DOM is to be loaded before the content is run and parsed.
+        //this is used in cases where the script tag is parsed at the head tag before the body html is parsed and run
+        //we make use of the event listener 'DOMContentLoaded'
+
+        //without the DOMcontentLoaded eventlistener, having the script tag in the head tag will blow errors
+        //document.addEventListener('DOMContentLoaded', addToLog)
+        //function addToLog(){
+        //    console.log('DOM Content loaded and parsed')
+        //    const myLog = document.getElementById('log')
+        //    myLog.innerHTML += '<h1>Hello :) </h1>'
+           
+            //testing out the img in the image tag
+            //const myImg = document.getElementById('myImg')
+
+            //on first trial, this image wont show any dimensions because the image hasn't been cached into the browser memory yet. on refresh the dimensions show.
+            //console.log('height: ' + myImg.offsetHeight + ', Width: ' + myImg.offsetWidth)
+        //}
+        //addToLog()
+        
+
+
+
+        //load eventlisteners waits for stylesheets and images to load before parsing and running the function. Unlike the DOMContentLoaded events
+        //window.addEventListener('load', checkImgSize)
+        //function checkImgSize(){
+        //const myImg = document.getElementById('myImg')
+        //    myImg.style.width = '100px'
+        //    myImg.style.height = 'auto'
+        //    console.log('height: ' + myImg.offsetHeight + ', Width: ' + myImg.offsetWidth)
+            
+        //}
+        //checkImgSize()
+        //n.b: to make a site mobile responsive, check out 'touchstart', 'touchend' etc
+    </script>
+</head>
+<body >
+    <!-- creating a dropdown in html  -->
+    <div id="planetss">
+        <select name="select" id="selector">
+            <option value="none">None</option>
+            <option value="unknown">Unknown</option>
+            <option value="low">Low</option>
+            <option value="medium">Medium</option>
+            <option value="high">High</option>
+        </select>
+    </div>
+
+
+    
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+
+   
+    <div id="people">
+        <button>Click for people</button>
+        
+    </div>
+    
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+
+    <div id="main">
+        <button>
+            Click for data
+    
+        </button>
+        <p id="paragraph"></p>
+       </div>
+    <div id="log">
+        <!-- <img id="myImg" src="https://i.ibb.co/Jsj98Zw/icons8-facebook-1600.png" alt=""> -->
+    </div>
+    <h1>Hello World</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod totam dicta voluptate maiores accusamus minus vitae culpa perferendis, tempora soluta! Dolore, reprehenderit. Accusamus, sapiente natus reiciendis, distinctio non, iure dolores maxime fugiat officiis tempore illum! Consequatur laboriosam quod eos deleniti reiciendis repellat asperiores, repellendus obcaecati nulla quo, numquam facere ab dolor perferendis autem. Ab ad, officia, earum itaque nobis sint esse quidem molestias cum quaerat perspiciatis autem asperiores ipsum voluptatem, non praesentium ut accusantium placeat. Deleniti nam quaerat, adipisci corporis eligendi libero dolore quia, praesentium aspernatur ipsam quo mollitia aperiam, explicabo sapiente? Fugiat odio sequi sit dolor in adipisci voluptatum?</p>
+    <p>helllllo</p>
+    <p>iirjnfenlwnfnw</p>
+    <p id="name">Hello, my name is <span>Uchenna</span> and <span>Uchenna</span> is the name my Father gave me when i was born. <span>Uchenna</span> is a very sweet nameHello, my name is <span>Uchenna</span> and <span>Uchenna</span> is the name my Father gave me when i was born. <span>Uchenna</span> is a very sweet nameHello, my name is <span>Uchenna</span> and <span>Uchenna</span> is the name my Father gave me when i was born. <span>Uchenna</span> is a very sweet nameHello, my name is <span>Uchenna</span> and <span>Uchenna</span> is the name my Father gave me when i was born. <span>Uchenna</span> is a very sweet nameHello, my name is <span>Uchenna</span> and <span>Uchenna</span> is the name my Father gave me when i was born. <span>Uchenna</span> is a very sweet name</p>
+
+    <p>total number of words changed is <span id="total"></span></p>4
+
+    <section>
+        <div>
+            I want to be a very <span>wealthy</span> and <span>fulfilled</span> man
+        </div>
+    </section>
+    <div class="dream">
+        I also want to be a very <span>happy</span> and <span>peaceful</span> man
+    </div>
+    <div class="dream">
+        Especially with my <span>wife</span> and <span>kids</span> by my side.
+    </div>
+    <div id="tester">
+        Lorem ipsum dolor sit amet consectetur.
+       
+    </div>
+
+
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum minus provident rerum dolore reprehenderit. Quod, esse ipsa! Pariatur, dolor omnis?
+    </div>
+
+
+
+    <div id="create">
+        
+    </div>
+    <div>
+        <button id="evente">click</button>
+    </div>
+
+    <div  id="bckgrnd">
+        <h2>
+            I am size H2 header
+        </h2>
+        <ul> 
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>item 3</li>
+            <li>item 4</li>
+        </ul>
+    </div>
+    <div id="div2">
+        <a href="https://google.com">click to go to google.com</a>
+    </div>
+
+    <form id='myForm' action="Post">
+        <input id="myInput" type="text">
+        <button type="submit">Submit</button>
+    </form>
+
+    <div id="div3">
+        <p></p>
+        <textarea name="" id="txt" cols="30" rows="10"></textarea>
+    </div>
+   <div id="list">
+
+   </div>
+   <div id="myotherlist">
+
+   </div>
+
+
+</body>
+<script src="script.js"></script>
+</html>
